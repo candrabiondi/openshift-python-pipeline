@@ -10,3 +10,4 @@ A working example for a blog series on Modern CI/CD using Python+Gunicorn+NGINX+
 2. [Deployment Structure](https://github.com/ruddra/openshift-python-nginx-pipeline-ci-cd/wiki/Deployment-Structure)
 3. [Pipeline](https://github.com/ruddra/openshift-python-nginx-pipeline-ci-cd/wiki/Pipeline)
 4. [Output Server](https://github.com/ruddra/openshift-python-nginx-pipeline-ci-cd/wiki/Output-Server)
+# openshift-python-pipeline
