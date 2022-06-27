@@ -117,6 +117,13 @@ pipeline {
                 }
             }
         }
+        stage('Scale in DEV') {
+            steps {
+                script {
+                    openshiftScale(namespace: "${DEV_PROJECT}", deploymentConfig: "${TEMPLATE_NAME}", replicaCount: '2')
+                }
+            }
+        }
         stage('Promote to STAGE?') {
             steps {
                 timeout(time:15, unit:'MINUTES') {
