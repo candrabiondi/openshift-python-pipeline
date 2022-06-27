@@ -8,13 +8,9 @@ def get_tasks():
         {
             'id': 1,
             'title': 'Openshift Jenkins Pipeline Python/Nginx Implementation',
-            'description': 'Find the implementation at https://github.com/ruddra/openshift-python-nginx'
+            'description': 'Find the implementation at https://github.com/candrabiondi/openshift-python-nginx'
         },
-        {
-            'id': 2,
-            'title': 'Openshift Jenkins Pipeline Django Implementation',
-            'description': 'Find the implementation at https://github.com/ruddra/openshift-django'
-        }
+        
     ]
     return jsonify({'tasks': tasks})
 
